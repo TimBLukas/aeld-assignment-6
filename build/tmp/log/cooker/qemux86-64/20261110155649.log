@@ -1,0 +1,26 @@
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "2.18.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "ubuntu-22.04"
+TARGET_SYS           = "x86_64-oe-linux"
+MACHINE              = "qemux86-64"
+SDKMACHINE           = "x86_64"
+DISTRO               = "nodistro"
+DISTRO_VERSION       = "nodistro.0"
+TUNE_FEATURES        = "m64 x86-64-v3"
+meta                 = "wrynose:2285da08068a6d1b4a64c9a52d85a58be50e4679"
+meta-aesd            = "main:60e788500b175aa62fac4963a9099333492d0731"
+
+NOTE: Fetching uninative binary shim http://downloads.yoctoproject.org/releases/uninative/5.1/x86_64-nativesdk-libc-5.1.tar.xz;sha256sum=2b63a078c26535e0786e87f81ae69509df30f4dce40693004c527bd5e4ab2b85 (will check PREMIRRORS first)
+Sstate summary: Wanted 1 Local 0 Mirrors 0 Missed 1 Current 0 (0% match, 0% complete)
+NOTE: Executing Tasks
+NOTE: Setscene tasks completed
+NOTE: Running task 1 of 2 (/home/tbl/Projects/aeld-assignment-6/meta-aesd/recipes-aesd-assignments/aesd-assignments/aesd-assignments_git.bb:do_recipe_qa)
+NOTE: recipe aesd-assignments-1.0+git-r0: task do_recipe_qa: Started
+NOTE: recipe aesd-assignments-1.0+git-r0: task do_recipe_qa: Succeeded
+NOTE: Running task 2 of 2 (/home/tbl/Projects/aeld-assignment-6/meta-aesd/recipes-aesd-assignments/aesd-assignments/aesd-assignments_git.bb:do_fetch)
+NOTE: recipe aesd-assignments-1.0+git-r0: task do_fetch: Started
+NOTE: recipe aesd-assignments-1.0+git-r0: task do_fetch: Succeeded
+NOTE: Tasks Summary: Attempted 2 tasks of which 0 didn't need to be rerun and all succeeded.

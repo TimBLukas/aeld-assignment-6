@@ -1,0 +1,7 @@
+WARNING: /home/tbl/Projects/aeld-assignment-6/meta-aesd/recipes-aesd-assignments/aesd-assignments/aesd-assignments_git.bb: Exception during build_dependencies for fetcher_hashes_dummyfunc: ExpansionError('fetcher_hashes_dummyfunc[vardepvalue]', '${@bb.fetch.get_hashvalue(d)}', FetchError("Unable to resolve '95c189c' in upstream git repository in git ls-remote output for github.com/TimBLukas/aeld-assignment-3-and-later.git", None))
+WARNING: /home/tbl/Projects/aeld-assignment-6/meta-aesd/recipes-aesd-assignments/aesd-assignments/aesd-assignments_git.bb: Error during finalise of /home/tbl/Projects/aeld-assignment-6/meta-aesd/recipes-aesd-assignments/aesd-assignments/aesd-assignments_git.bb
+ERROR: ExpansionError during parsing /home/tbl/Projects/aeld-assignment-6/meta-aesd/recipes-aesd-assignments/aesd-assignments/aesd-assignments_git.bb
+bb.data_smart.ExpansionError: Failure expanding variable fetcher_hashes_dummyfunc[vardepvalue], expression was ${@bb.fetch.get_hashvalue(d)} which triggered exception FetchError: Fetcher failure: Unable to resolve '95c189c' in upstream git repository in git ls-remote output for github.com/TimBLukas/aeld-assignment-3-and-later.git
+The variable dependency chain for the failure is: fetcher_hashes_dummyfunc[vardepvalue]
+
+ERROR: Parsing halted due to errors, see error messages above

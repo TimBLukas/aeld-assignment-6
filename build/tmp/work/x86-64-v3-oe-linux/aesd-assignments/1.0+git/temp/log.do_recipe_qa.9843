@@ -1,0 +1,23 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function do_recipe_qa
+NOTE: QA Issue: Recipe aesd-assignments in /home/tbl/Projects/aeld-assignment-6/meta-aesd/recipes-aesd-assignments/aesd-assignments/aesd-assignments_git.bb does not contain a HOMEPAGE. Please add an entry. [missing-metadata]
+NOTE: QA Issue: Recipe aesd-assignments in /home/tbl/Projects/aeld-assignment-6/meta-aesd/recipes-aesd-assignments/aesd-assignments/aesd-assignments_git.bb does not have an assigned maintainer. Please add an entry into meta/conf/distro/include/maintainers.inc. [missing-maintainer]
+DEBUG: Python function do_recipe_qa finished
+DEBUG: Executing python function sstate_task_postfunc
+NOTE: Using umask 2 (not 22) for sstate packaging
+DEBUG: Executing python function target_add_sysroot_deps
+DEBUG: Python function target_add_sysroot_deps finished
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/tbl/Projects/aeld-assignment-6/build/tmp/work/x86-64-v3-oe-linux/aesd-assignments/1.0+git/sstate-build-recipe_qa/ \( -name "*.la" -o -name "*-config" -o -name "*_config" -o -name "postinst-*" \) -type f | xargs grep -l -e '/home/tbl/Projects/aeld-assignment-6/build/tmp/work/x86-64-v3-oe-linux/aesd-assignments/1.0+git/recipe-sysroot' -e '/home/tbl/Projects/aeld-assignment-6/build/tmp/work/x86-64-v3-oe-linux/aesd-assignments/1.0+git/recipe-sysroot-native' -e '/home/tbl/Projects/aeld-assignment-6/build/tmp/hosttools' | tee /home/tbl/Projects/aeld-assignment-6/build/tmp/work/x86-64-v3-oe-linux/aesd-assignments/1.0+git/sstate-build-recipe_qa/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/tbl/Projects/aeld-assignment-6/build/tmp/work/x86-64-v3-oe-linux/aesd-assignments/1.0+git/recipe-sysroot-native:FIXMESTAGINGDIRHOST:g' -e 's:/home/tbl/Projects/aeld-assignment-6/build/tmp/work/x86-64-v3-oe-linux/aesd-assignments/1.0+git/recipe-sysroot:FIXMESTAGINGDIRTARGET:g' -e 's:/home/tbl/Projects/aeld-assignment-6/build/tmp/hosttools:FIXME_HOSTTOOLS_DIR:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing python function sstate_report_unihash
+DEBUG: Reported task d007257419d7039b7fd7e668ef1469a2401a605aa75ba96a5f99634ac066e5de as unihash d007257419d7039b7fd7e668ef1469a2401a605aa75ba96a5f99634ac066e5de to unix:///home/tbl/Projects/aeld-assignment-6/build/hashserve.sock
+DEBUG: Python function sstate_report_unihash finished
+DEBUG: Executing python function sstate_create_and_sign_package
+DEBUG: Python function sstate_create_and_sign_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Python function sstate_task_postfunc finished

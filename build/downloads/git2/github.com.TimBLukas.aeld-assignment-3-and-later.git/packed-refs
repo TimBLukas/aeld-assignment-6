@@ -1,0 +1,9 @@
+# pack-refs with: peeled fully-peeled sorted 
+95c189cb5100da3b9db7f3dc67c3b286c6079c0e refs/heads/main
+d437ac3328cc7eae1b40d2708e7a4c18b01c1834 refs/tags/assignment-3-part-1
+c0677db442f5a2e120e658bdfa9012e8059b617d refs/tags/assignment-3-part-2
+67b7bcfe7f36feee9cfb3c8ead1cb5aca11df031 refs/tags/assignment-4-part-1
+e4f54f2ab267c4c7134e20d80803949461adc29f refs/tags/assignment-4-part-2
+54e6cbc8e48ffcf68ce316a04ddf5ef865ba9aed refs/tags/assignment-5-part-1
+01c037253e9f234daf1e2001d8c3f6518ed2c2e9 refs/tags/assignment-5-part-2
+95c189cb5100da3b9db7f3dc67c3b286c6079c0e refs/tags/assignment-6-part-1

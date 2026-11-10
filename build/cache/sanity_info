@@ -1,0 +1,4 @@
+SANITY_VERSION 1
+TMPDIR /home/tbl/Projects/aeld-assignment-6/build/tmp
+SSTATE_DIR /home/tbl/Projects/aeld-assignment-6/build/sstate-cache
+NATIVELSBSTRING ubuntu-22.04

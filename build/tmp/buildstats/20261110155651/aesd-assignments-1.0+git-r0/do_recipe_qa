@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1794326218.51 
+aesd-assignments-1.0+git-r0: do_recipe_qa
+Elapsed time: 0.30 seconds
+utime: 7
+stime: 1
+cutime: 0
+cstime: 1
+IO rchar: 145532
+IO wchar: 104665
+IO syscr: 179
+IO syscw: 91
+IO read_bytes: 1359872
+IO write_bytes: 81920
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.075861
+rusage ru_stime: 0.015392
+rusage ru_maxrss: 43060
+rusage ru_minflt: 4251
+rusage ru_majflt: 1
+rusage ru_inblock: 40
+rusage ru_oublock: 136
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 112
+Child rusage ru_utime: 0.007235999999999999
+Child rusage ru_stime: 0.011581
+Child rusage ru_maxrss: 43060
+Child rusage ru_minflt: 2552
+Child rusage ru_majflt: 8
+Child rusage ru_inblock: 2616
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 55
+Child rusage ru_nivcsw: 4
+Status: PASSED 
+Ended: 1794326218.81 

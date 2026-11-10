@@ -1,0 +1,5 @@
+OEOuthashBasic
+18
+SSTATE_PKGSPEC=sstate:aesd-assignments:x86-64-v3-oe-linux:1.0+git:r0:x86-64-v3:14:
+task=recipe_qa
+drwx                                                                                       .

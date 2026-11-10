@@ -1,0 +1,13 @@
+-----------------------
+Build Configuration:  |
+-----------------------
+DISTRO = poky
+DISTRO_VERSION = 5.3.99+snapshot-438afb3ded629408172c4bd7d556c5d2abacd631
+IMAGE_BASENAME = uninative-tarball
+IMAGE_NAME = uninative-tarball-qemux86-64.rootfs-20260312223425
+-----------------------
+Layer Revisions:      |
+-----------------------
+meta              = master:438afb3ded629408172c4bd7d556c5d2abacd631
+meta-yocto-bsp    = master:31e68c7cf6a3686bedbcbdd99056bbd23dda2551
+meta-poky         = master:31e68c7cf6a3686bedbcbdd99056bbd23dda2551
